@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <h3 class="fr">Apply for RTI</h3>
+    <h2 class="fl">Kindly fill up the form to apply for RTI</h2>
+    <form action="" class="formrun">
+        <div class="element">
+            <p>Name of Ministry/Department/Apex Body</p>
+            <input type="text" id="Ministry" placeholder="Enter Name" required>
+        </div>
+        
+        <div class="element">
+            <p>Name of Public Authority</p>
+            <input type="text" id="Public" placeholder="Enter Name" required>
+        </div>
+     
+        <div class="element">
+            <p>Name</p>
+            <input type="text" id="name" placeholder="Enter your Name" required>
+        </div>
+
+        
+        <div class="element">
+            <p>Contact No.</p>
+            <input type="number" id="cno" placeholder="Enter Contact No." required>
+        </div>
+
+        
+        <div class="element">
+            <p>Email Address</p>
+            <input type="email" id="eaddress" placeholder="Enter Email" required>
+        </div>
+
+        
+        <div class="element">
+            <p>Gender</p>
+            <div class="checkque">
+            <input type="checkbox" id="male" name="Male">
+            <label for="male">Male</label>
+            <input type="checkbox" id="female" name="Female">
+            <label for="female">Female</label>
+            <input type="checkbox" id="others" name="Other">
+            <label for="Other">Other</label>
+            </div>
+        </div>
+
+        
+        <div class="element">
+            <p>Address</p>
+            <input type="text" id="address" placeholder="Enter Address" required>
+        </div>
+
+        
+        <div class="element">
+            <p>Pin Code</p>
+            <input type="text" id="pcode" placeholder="Enter Address" required>
+        </div>
+
+        
+        <div class="element">
+            <p>Country</p>
+            <div class="checkque">
+            <input type="checkbox" id="india" name="India">
+            <label for="India">India</label>
+            <input type="checkbox" id="other" name="Others">
+            <label for="Others">Other</label>
+            </div>
+        </div>
+
+        
+        <div class="element">
+            <p>State</p>
+            <input type="text" id="state" placeholder="Enter Address" required>
+        </div>
+
+        
+        <div class="element">
+            <p>Status</p>
+            <div class="checkque">
+            <input type="checkbox" id="rural" name="Rural">
+            <label for="Rural">Rural</label>
+            <input type="checkbox" id="urban" name="Urban">
+            <label for="Urban">Urban</label>        
+             </div>
+        </div>
+        <div class="element">
+            <p>Educational Status</p>
+            <div class="checkque">
+            <input type="checkbox" id="Literate" name="Literate">
+            <label for="Literate">Literate</label>
+            <input type="checkbox" id="Illiterate" name="Illiterate">
+            <label for="Illiterate">Illiterate</label>
+        </div>
+        </div>
+        <div class="element">
+            <p>Citizenship</p>
+            <input type="text" id="Citizenship" placeholder="Citizenship" required>
+        </div>
+
+        <div class="element">
+            <p>PovertyLine</p>
+            <input type="text" id="PovertyLine" placeholder="PovertyLine" required>
+        </div>
+
+        <div class="element">
+            <p>Message</p>
+            <input type="text" id="msg" placeholder="Enter Message" required>
+        </div>
+
+        <div class="element">
+            <p>Enter supporting Document</p>
+            <input type="file" id="file"  required>
+        </div>
+        <button href="#"class="submit" value="Submit" id="submit">Submit</button>
+    </form>
+
+
+    <div class="name">
+        <h2>We will get back to u</h2>
+            <p>Ministry: <span id="mt"></span></p>
+            <p>Authority: <span id="at"></span></p>
+            <p>Name: <span id="nm"></span></p>
+            <p>Contact No: <span id="cn"></span></p>
+            <p>Gender <span id="gn"></span></p>
+            <p>Email Address: <span id="ea"></span></p>
+            <p>Address: <span id="ad"></span></p>
+            <p>Pincode: <span id="pc"></span></p>
+            <p>State: <span id="sa"></span></p>
+            <p>Country: <span id="ct"></span></p>
+            <p>Educational Status: <span id="es"></span></p>
+            <p>Status: <span id="st"></span></p>
+            <p>Citizenship: <span id="cz"></span></p>
+            <p>Poverty Line: <span id="pl"></span></p>
+            <p>Message: <span id="ms"></span></p>
+
+            <button class="submits" > Back</button>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>

@@ -1,0 +1,33 @@
+body{
+    display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+}
+
+*{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.name{
+     display: None;
+}
+.element{
+    display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+}
+
+.element p{
+font-weight: 600;
+}
+
+.submit,.submits{
+    background: rgb(0, 190, 0);
+    color: white;
+    width: 350px;
+    height: 40px;
+    border: none;
+    outline: none;
+    margin-top: 25px;
+}
